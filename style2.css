@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@100;200;300;400;500;600;700;800;900 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+   width: 428px;
+   height: 100%;
+   border-radius: 24px; 
+   border: 1px solid #3E334E;
+}
+.padd{
+    padding: 20px;
+}
+.imagen{
+width: 428px;
+height: 198px;
+border-top-left-radius: 24px;
+border-top-right-radius: 24px; 
+background-image: url(./ima.jpg);
+background-size: contain;
+}
+
+
+
+h1{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 150%;  
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.padd{
+width: 794px;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.imagen{
+width: 1128px;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: none;
+background-color: #191A24;
+border: 1px solid black;
+border-radius: 0px;
+/* display: grid;
+grid-template-areas: 
+'uno cuatro siete'
+'dos cinco ocho'
+'tres seis nueve'; */
+
+
+}
+
+.caja{
+  border-radius: 8px;
+}
+.uno{
+  position: absolute;
+  width: 324px;
+  height: 364px;
+  left: 40px;
+  top: 0px;
+  background-image: url(./uno.png);
+  background-repeat: no-repeat;
+  
+}
+
+.dos{
+  position: absolute;
+  width: 324px;
+  height: 365px;
+  left: 40px;
+  top: 292px;
+  background-image: url(./dos.png);
+  background-repeat: no-repeat;
+}
+
+.tres{
+  position: absolute;
+  width: 324px;
+  height: 214px;
+  left: 40px;
+  top: 684px;
+  background-image: url(./tres.png);
+  background-repeat: no-repeat;
+}
+.cuatro{
+  position: absolute;
+  width: 324px;
+  height: 365px;
+  left: 392px;
+  top: 0px;
+  background-image: url(./cuatro.png);
+  background-repeat: no-repeat;
+}
+.cinco{
+  position: absolute;
+  width: 324px;
+  height: 318px;
+  left: 392px;
+  top: 370px;
+  background-image: url(./cinco.png);
+  background-repeat: no-repeat;
+}
+.seis{
+  position: absolute;
+  width: 324px;
+  height: 190px;
+  left: 392px;
+  top: 711px;
+  background-image: url(./seis.png);
+  background-repeat: no-repeat;
+}
+.siete{
+  position: absolute;
+  width: 324px;
+  height: 216px;
+  left: 744px;
+  top: 20px;
+  background-image: url(./siete.png);
+  background-repeat: no-repeat;
+}
+.ocho{
+  position: absolute;
+  width: 324px;
+  height: 318px;
+  left: 744px;
+  top: 260px;
+  background-image: url(./ocho.png);
+  background-repeat: no-repeat;
+}
+.nueve{
+  position: absolute;
+  width: 324px;
+  height: 300px;
+  left: 744px;
+  top: 604px;
+  background-image: url(./nueve.png);
+  background-repeat: no-repeat;
+}
+
+.titulo{
+  padding-bottom: 80px;
+  padding-left: 150px;
+}
+.contenido{
+  padding-bottom: 80px;
+  padding-left: 150px;
+}
+.login{
+  padding-bottom: 140px;
+  width: 480px;
+  height: 560px;
+}
+.log{
+  padding-left: 50px;
+}
+.container{
+  border-radius: 0px;
+}
